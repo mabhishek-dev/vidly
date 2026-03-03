@@ -1,0 +1,33 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "A video rental application built with Node.js, Express, and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.1",
+    "config": "^4.4.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.2",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "lodash": "^4.17.23",
+    "mongoose": "^9.2.3",
+    "winston": "^3.19.0",
+    "winston-mongodb": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
