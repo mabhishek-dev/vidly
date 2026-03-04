@@ -13,7 +13,7 @@ A **RESTful backend API** for a video rental application built using **Node.js, 
 
 This project was built as a backend service to practice designing and implementing **secure REST APIs** using Node.js and MongoDB with proper validation, authentication, and logging.
 
-Application data is stored in **MongoDB Atlas**, while the API communicates with the database using **Mongoose**.
+Application data is stored in **MongoDB Atlas** and accessed through **Mongoose**.
 
 The API is intended to be consumed by client applications or tested using tools such as **Postman**.
 
@@ -37,6 +37,7 @@ This endpoint is intended to be accessed through tools like **Postman** or integ
 - **MongoDB Atlas (Cloud Database)**
 - Mongoose
 - JSON Web Tokens (JWT)
+- **bcrypt (Password Hashing)**
 - Joi Validation
 - Winston Logging
 - Postman (API Testing)
